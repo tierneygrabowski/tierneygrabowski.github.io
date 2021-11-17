@@ -1,0 +1,146 @@
+body {
+  background-color: #0d2133;
+}
+.headshot {
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+  background: url(Headshot-image.jpg);
+  mix-blend-mode: luminosity;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 500px;
+}
+.plant {
+  background: url(Plant.svg);
+  position: absolute;
+  width: 279.29px;
+  height: 582px;
+  left: calc(50%);
+  top: calc(60%);
+
+}
+.circle {
+  background: url(Circle.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  color: #c1dee2;
+  height: 147px;
+  width: 154px;
+  left: calc(100% - 154px / 2);
+  top: 0px;
+  border-radius: 0px;
+}
+.line1 {
+  background: url(Line.svg);
+  object-position: 75% 25%;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  border: 1px dashed #ffffff;
+  filter: blur(4px);
+  transform: rotate(49.99deg);
+  position: absolute;
+  width: 695.21px;
+  height: 0px;
+  left: 800px;
+  top: -8px;
+
+
+}
+.line2 {
+  background: url(Line2.svg);
+  color: #ffffff;
+  border: 1px dashed #ffffff;
+  filter: blur(4px);
+  transform: rotate(49.21deg);
+  position: absolute;
+  width: 695.21px;
+  height: 0px;
+  left: 750px;
+  top: 250px;
+}
+.city-tag {
+  color: #0d2133;
+  font-family: 'Playfair Display', serif;
+  font-weight: Normal;
+  font-size: 18px;
+  background: #c1dee2;
+  padding: 5px;
+  width: fit-content;
+}
+.instagram-tag {
+  color: #0d2133;
+  font-family: 'Playfair Display', serif;
+  font-weight: Normal;
+  font-size: 18px;
+  background: #c1dee2;
+  padding: 5px;
+  width: fit-content;
+
+}
+.linkedin-tag {
+  color: #0d2133;
+  font-family: 'Playfair Display', serif;
+  font-weight: Normal;
+  font-size: 18px;
+  background: #c1dee2;
+  padding: 5px;
+  width: fit-content;
+}
+.aboutme-tag {
+  color: #0d2133;
+  font-family: 'Playfair Display', serif;
+  font-weight: Normal;
+  font-size: 18px;
+  background: #c1dee2;
+  padding: 5px;
+  width: fit-content;
+}
+.myname {
+  color: #c1dee2;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+  position: absolute;
+
+}
+.myname-shadow {
+  color: #000000;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+  filter: blur(4px);
+  position: absolute;]
+
+}
+.grid-tags {
+  width: calc(50%);
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 10px;
+}
+.grid-row-1 {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.grid-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.grid-row-3 {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.grid-item {
+  padding: 10px;
+  text-align: center;
+}
+.grid-main{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
